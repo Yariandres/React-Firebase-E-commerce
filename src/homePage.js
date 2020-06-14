@@ -7,8 +7,7 @@ const homePage = () => {
         <div className='menu-item'>
           <div className='content'>
             <h1 className='title'>
-              HATS 
-              
+              HATS              
             </h1>
             <span>SHOP NOW</span>
           </div>
@@ -17,8 +16,7 @@ const homePage = () => {
         <div className='menu-item'>
           <div className='content'>
             <h1 className='title'>
-              JACKETS 
-             
+              JACKETS             
             </h1>
             <span>SHOP NOW</span>
           </div>
@@ -27,8 +25,7 @@ const homePage = () => {
         <div className='menu-item'>
           <div className='content'>
             <h1 className='title'>
-              SNEAKERS 
-              
+              SNEAKERS              
             </h1>
             <span>SHOP NOW</span>
           </div>
@@ -37,8 +34,7 @@ const homePage = () => {
         <div className='menu-item'>
           <div className='content'>
             <h1 className='title'>
-              WOMANS 
-              
+              WOMANS              
             </h1>
             <span>SHOP NOW</span>
           </div>
@@ -47,8 +43,7 @@ const homePage = () => {
         <div className='menu-item'>
           <div className='content'>
             <h1 className='title'>
-              MENS 
-              
+              MENS              
             </h1>
             <span>SHOP NOW</span>
           </div>
