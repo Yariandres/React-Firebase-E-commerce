@@ -4,11 +4,18 @@ import './App.css';
 
 import HomePage from './pages/homepage/homePage';
 
+const Hats = () => {
+  return (
+    <h1>HATS PAGE</h1>
+  )
+}
+
 function App() {
   return (
     <div>
       <Router>
-        <Route path={"/"} component={HomePage}/>
+        <Route exact path={"/"} component={ HomePage }/>
+        <Route path={"/hats"} component={ Hats }/>
       </Router>
     </div>
   );
