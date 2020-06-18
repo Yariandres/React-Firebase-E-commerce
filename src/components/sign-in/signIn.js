@@ -2,6 +2,8 @@ import React from 'react';
 import FormInput from '../form-input/formInput';
 import CustomButton from '../custom-button/customButton';
 
+import { signInWithGoogle } from '../../firebase/firebase.utils'
+
 import './signIn.scss';
 
 class SignIn extends React.Component {
@@ -53,6 +55,11 @@ class SignIn extends React.Component {
           
           <CustomButton type='submit'>
             Sign in
+          </CustomButton>
+
+          <CustomButton onClick={ signInWithGoogle }>
+          {' '}
+            Sign in with Google {' '}
           </CustomButton>
         </form>      
       </div>
