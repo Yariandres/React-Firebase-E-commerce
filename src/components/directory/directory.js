@@ -4,7 +4,7 @@ import MenuItem from '../menu-item/menuItem';
 import './directory.scss';
 
 class Directory extends React.Component {
-  constructor(props) {
+  constructor() {
     super();
 
     this.state = {
@@ -42,18 +42,18 @@ class Directory extends React.Component {
           linkUrl: ''
         }
       ]
-    }
+    };
   }
 
   render() {
     return (
       <div className='directory-menu'>
-        { this.state.sections.map(({ id, ...otherSectionProps }) => (
-          <MenuItem key={id} { ...otherSectionProps } />
-        )) }
+        {this.state.sections.map(({ id, ...otherSectionProps }) => (
+          <MenuItem key={id} {...otherSectionProps} />
+        ))}
       </div>
-    )
+    );
   }
-} 
+}
 
 export default Directory;
