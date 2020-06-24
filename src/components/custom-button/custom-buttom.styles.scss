@@ -24,7 +24,7 @@
 
   &.google-sign-in {
     background-color: #4285f4;
-    color: #fff;
+    color: white;
 
     &:hover {
       background-color: #357ae8;
@@ -38,8 +38,8 @@
     border: 1px solid black;
 
     &:hover {
-      background-color: #000;
-      color: #fff;
+      background-color: black;
+      color: white;
       border: none;
     }
   }
